@@ -41,6 +41,10 @@ App detalles y funciones version 34
 ## Ventas:
 ####  -Registro de todas las ventas, con y sin cliente
 ####  -Buscador por fecha, ids 
+####  -Interfaz para controlar ventas
+####  -Detalles de ventas para cliente id y none
+####  -Interfaz para ver detalles de la venta seleccionada
+####  -Opcion de imprimir operacion
 
 
 
