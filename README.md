@@ -1,5 +1,5 @@
 # GesTh©r. 
-Tu heroe en gestión
+## "Tu heroe en gestión comercial"
 
 App para gestionar un comercio. 
 App detalles y funciones version 34
