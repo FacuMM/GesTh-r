@@ -2,8 +2,8 @@
 App para gestionar un comercio. 
 App detalles y funciones version 34
 
-##Productos y Servicios:##
-  -Buscador de productos o servicios por id, codigo, nombre o categoria
+#Productos y Servicios:
+  ##-Buscador de productos o servicios por id, codigo, nombre o categoria
   -Registro de ventas con cliente y sin cliente
   -Control de stock
   -Alerta de falta de stock
