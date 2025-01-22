@@ -324,6 +324,12 @@ class FormularioPROD_(ft.Column):
         self.page.add(snackbar)
     
     def realizar_venta(self, e):
+        #mejoras para tener en cuenta
+        #Crear la tabla de estados de venta, guardar el insert 
+        #Cuando se eliga el metodo de pago.
+        #Quitar el insert de aca y ponerlo en btn Efectivo y Mercado pago
+        #Al resionar efectivo se hace el commit y update, y en mp el commit espera
+        #a que el estado de venta sea confirmado para update datos y commit venta:
         if not self.lista_productos:
             print("No hay productos seleccionados para realizar la venta.")
             snackbar = ft.SnackBar(content=ft.Text("No hay productos seleccionados"),
