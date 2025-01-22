@@ -1,4 +1,5 @@
-# GesTh©r ## "Tu heroe en gestión"
+# GesTh©r 
+## "Tu heroe en gestión"
 App para gestionar un comercio. 
 App detalles y funciones version 34
 
@@ -24,7 +25,8 @@ App detalles y funciones version 34
   -Inspeccion de ventas y presupuesto sin cliente definido(muestra todo)
   -Buscador por nombre o telefono
   -Exportar e importar clientes para grandes cantitades
-  -Interfaz fácil de entender
+  -Interf
+  az fácil de entender
 
 ## Presupuestos:
   -Interfaz para controlar presupuestos
