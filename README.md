@@ -1,4 +1,4 @@
-# GesTh-r
+# GesTh-r "Tu heroe en gestión"
 App para gestionar un comercio. 
 App detalles y funciones version 34
 
