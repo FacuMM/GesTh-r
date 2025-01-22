@@ -14,7 +14,7 @@ Productos y Servicios:
   -Guarda detalles de la venta, fecha, cantidad y sub
 
 
-Clientes
+Clientes:
   -Añadir nuevos clientes con datos solo necesarios para el registro
   -Editar un cliente, completando datos que faltan
   -No se puede eliminar un id por estar relacionado con ventas y presupuestos
@@ -26,17 +26,17 @@ Clientes
   -Exportar e importar clientes para grandes cantitades
   -Interfaz fácil de entender
 
-Presupuestos
+Presupuestos:
   -Interfaz para controlar presupuestos
   -Detalles de presupuestos para cliente id
   -Interfaz para ver detalles del presupuesto seleccionado
   -Opcion de imprimir presupuesto 
   -Detalles de un presupuesto, horas, fecha, cantidad y sub, control de vencimiento
 
-Inicio o Casa
+Inicio o Casa:
   -Ingresar a base de datos para ver todos los registros
 
-Ventas
+Ventas:
   -Registro de todas las ventas, con y sin cliente
   -Buscador por fecha, ids 
 
