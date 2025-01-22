@@ -34,16 +34,11 @@ class FormularioPROD_(ft.Column):
             icon=ft.icons.CHECK_ROUNDED,
             scale=2.15,
             tooltip="Realizar venta",
-            on_click=self.realizar_venta,#Debe abrir un dialogo y preguntar forma de pago.
-                #Si es en efectivo, sigue su curso normal
-                # si es mercado_pago, link o qr se hace el proseso y al recibir cobro_realizado del proseso pagado
-                # la venta se guarda siguiendo su curso
-                # en la base de datos, con el id de la venta vamos a guardar en un
-                # nueva tabla cobros_pendientes, realizados, cancelados y va a tener el id de la venta
-                #Si es ok, sigue el curso de guardar la venta. (en esa nueva tabla se va a guardar el request de mercado pago)
-                # Donde nos notifique que pasó con ese link de pago. 
-                # foreing al id de la venta para activar un bool que si es ok el pago,
-                # sigue el curso normal de la venta. Registrando la venta y actualizando la tabla :
+            on_click=self.realizar_venta,#Terminar forma de pago mercado pago, :
+            #Descontar stock y guardar registro con btn efectivo
+            #Descontar stock con estado de pago ok , estado pendiente no descuenta, :
+            #Con mp pedir link, y generar estado de venta, hacer query sobre
+            #el estado para actualizar el estado y terminar proseso. :
             style=ft.ButtonStyle(color=ft.colors.GREEN),
         )
         self.boton_cancelar = ft.IconButton(
